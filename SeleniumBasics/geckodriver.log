@@ -9,3 +9,13 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://opensource-demo.orangehrmlive.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 1645166525094	Marionette	INFO	Stopped listening on port 65529
+1645420677648	geckodriver	INFO	Listening on 127.0.0.1:56809
+1645420680708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56810" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilehFaP7k"
+*** You are running in headless mode.
+1645420681065	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilehFaP7k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56810/devtools/browser/f4941c5f-f0f1-4bec-b744-6eddcadaecbe
+1645420682123	Marionette	INFO	Listening on port 56818
+1645420682313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
