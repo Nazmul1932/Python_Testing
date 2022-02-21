@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 
-driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.implicitly_wait(10)
 driver.get("https://app.hubspot.com/login")
 driver.find_element(By.XPATH, "//input[@id='username']").send_keys('test@gmail.com')

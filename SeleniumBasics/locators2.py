@@ -4,7 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 import time
 
-driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.implicitly_wait(5)
 driver.maximize_window()
 # driver.get("https://classic.crmpro.com/")

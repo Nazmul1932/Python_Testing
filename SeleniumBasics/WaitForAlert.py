@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import Select
 import time
 
-driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://mail.rediff.com/cgi-bin/login.cgi")
 driver.find_element(By.NAME, 'proceed').click()
 wait = WebDriverWait(driver, 10)
